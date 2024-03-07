@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)https://www.seti-gathering.net/ -->
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SETI-GATHERING</title>
+  <link rel="stylesheet" href="./files/index.css">
+  <link rel="icon" type="image/x-icon" href="./files/img/tabpic.png">
+  <link rel="stylesheet" type="text/css" href="https://pretix.seti-gathering.net/Fractaliens/v3/widget/v1.css">
+  <script type="text/javascript" src="https://pretix.seti-gathering.net/widget/v1.en.js" async></script>
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+
+  <div id="loader" style="z-index: 1000; display: none;" class="animate-bottom"></div>
+  <!-- <img src="media/img/SATempf.svg" alt="Satschüssellinks" id="Seitenpiclinks">
+    <img src="media/img/SATempf.svg" alt="Satschüsselrechts" id="Seitenpicrechts"> -->
+  <div id="Sitecontent" style="display: block;">
+    <nav class="navbar">
+      <div id="patternfill">
+        <div class="logo">
+          <img src="./files/img/Logo_web_11.svg" alt="SETI_LOGO" id="logopic">
+        </div>
+      </div>
+    </nav>
+    <div class="scroller" id="außen">
+      <div id="mitte">
+
+        <img src="./files/img/experiment9.svg" alt="" id="eyecandymid" class="animationpic">
+        <img src="./files/img/experiment9.svg" alt="" id="eyecandymid2" class="animationpic">
+
+        <!-- ////////// ABOUT //////// -->
+        <div id="innen">
+          <h1>About</h1>
+
+          <!-- <img src="media/img/hangarkomprimiert720px.jpg" alt="hangar720pxpic" class="mediapic"> -->
+
+          <!-- <img src="media/img/NextGath.jpg" alt="hangar720pxpic" class="mediapic"> -->
+
+          <p>
+            SETI-Gathering is a festival which
+            brings earthlings together
+            to have liberating and beautiful experiences,
+            be it on the dancefloor immersed in visual and acoustic
+            delights or enjoying the
+            location and delving into art, conversations and other
+            revelations of life.
+            We are a group of friends
+            driven by the wish to create a festival focused on the
+            darker and more experimental side of Psy- and Tekno-culture.
+            We aim to create a space in which we can all
+            freely express ourselves, and shed the layers
+            of our daily social, physical and psychological demands.
+            We would like to invite you to join us on our
+            next edition of SETI to launch ourselves into
+            this years highly anticipated festival-season.
+          </p>
+
+        </div>
+        <!-- ////////// NEXT GATHERING //////// -->
+        <div id="innen">
+          <h1>SETI 2k24
+            <br> <span id="datum">31.5-2.6</span>
+          </h1>
+          <div class="lineub">
+            <div style="width:100%;">
+              <!-- More information regarding the 2022 edition coming soon… -->
+              This years edition of SETI-Gathering
+              will happen on the 31st of may. We will
+              make a 48h party in a beautiful location close
+              to Erfurt. We will host 2 Dance floors with mostly dark psychedelic and teknoid dance music as well as
+              blissfull chillout sets.
+              Additionally there will be freshly made food to enjoy and
+              art features placed around the location.
+              <!-- <button onclick="clicky()">Click me</button> -->
+              <!-- onclick="clicky()" -->
+            </div>
+
+            <br>
+            <div id="lineupbox" onclick="clicklineup()" class="menutab">lineup</div>
+
+
+            <div id="linepop" style="
+            padding: 1rem;
+            display: none;
+            text-align: left;
+            background: #323D3A;
+            border-top: thin solid #000;
+            border-left: thin solid #000;
+            border-right: thin solid #000;            /* box-shadow: 0px 0px 1px black; */
+            ">
+              <span style="text-align:left;">
+                <span class="Floorname"> ARECIBO-STAGE:</span>
+
+                <br>
+                <br>
+                <span class="Artistname">3-Phasen-Depot</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/3-phasen-depot">[listen]</a></span><br><br>
+
+                <span class="Artistname">Agaddess</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/agaddess">[listen]</a></span><br><br>
+
+                <span class="Artistname">Akusmatech</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/akusmatech">[listen]</a></span><br><br>
+
+                <span class="Artistname">Alien Lazer Baby</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/user-743716187">[listen]</a></span><br><br>
+
+                <span class="Artistname">Antropoph</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/antropoph">[listen]</a></span><br><br>
+
+                <span class="Artistname">Caro Sunshine</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/carosunshine">[listen]</a></span><br><br>
+
+                <span class="Artistname">Chak Mo'ol</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/chak-mo-ol">[listen]</a></span><br><br>
+
+                <span class="Artistname">Dark Septum</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/darkseptum">[listen]</a></span><br><br>
+
+                <span class="Artistname">Darq</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/darqmusic">[listen]</a></span><br><br>
+
+                <span class="Artistname">Dregspin</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/dregspin">[listen]</a></span><br><br>
+
+                <span class="Artistname">Dr. Überfuchs</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/user-694798137">[listen]</a></span><br><br>
+
+                <span class="Artistname">Exotype</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/exponentialex">[listen]</a></span><br><br>
+
+                <span class="Artistname">Goagraf</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/goagraf">[listen]</a></span><br><br>
+
+                <span class="Artistname">Jack Delik</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/jackdelik">[listen]</a></span><br><br>
+
+                <span class="Artistname">Jairam</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/jairam-1">[listen]</a></span><br><br>
+
+                <span class="Artistname">Lemanik</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/leon-lemanik">[listen]</a></span><br><br>
+
+                <span class="Artistname">H3idi b2b Monotony</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/monotonymusic">[listen]</a></span><br><br>
+
+                <span class="Artistname">Neuro Mantis</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/neuro_mantis">[listen]</a></span><br><br>
+
+                <span class="Artistname">Okklumentim</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/okklumentim">[listen]</a></span><br><br>
+
+                <span class="Artistname">Phara-O</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/phara_o16">[listen]</a></span><br><br>
+
+                <span class="Artistname">Psylophonica</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/psylophonica">[listen]</a></span><br><br>
+
+                <span class="Artistname">Relikt</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/hitech_relikt">[listen]</a></span><br><br>
+
+                <span class="Artistname">Sharkface</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/sharkface_core">[listen]</a></span><br><br>
+
+                <span class="Artistname">Tegnigma</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/tegnigma">[listen]</a></span><br><br>
+
+                <br>
+                <br>
+
+                <!-- //////////////////////////////////////////////////////////7 -->
+
+
+                <span class="Floorname"> TRIBEHOUSE:</span>
+
+                <br>
+                <br>
+                <span class="Artistname">Cyks</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://www.seti-gathering.net/">[listen]</a></span><br><br>
+
+                <span class="Artistname">Die Weissheit</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/dieweissheit-srz">[listen]</a></span><br><br>
+
+                <span class="Artistname">DJ Belabu b2b Holyraveoli</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank" href="https://soundcloud.com/user-806613334">[listen]</a>
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/tom-holy">[listen]</a></span><br><br>
+
+                <span class="Artistname">DJ Rüdiger</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/djruediger">[listen]</a></span><br><br>
+
+                <span class="Artistname">Don Primitivo</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/donprimitivo">[listen]</a></span><br><br>
+
+                <span class="Artistname">Dustertanz</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://www.seti-gathering.net/">[listen]</a></span><br><br>
+
+                <span class="Artistname">Fed.</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/mad_fed_head">[listen]</a></span><br><br>
+
+                <span class="Artistname">Isopoda</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/isopoda">[listen]</a></span><br><br>
+
+                <span class="Artistname">Knallbrecht Schürer b2b Paul Alkbrenner</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/schuerung-abriss">[listen]</a></span><br><br>
+
+                <span class="Artistname">Kami Vore</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/kami_vore">[listen]</a></span><br><br>
+
+                <span class="Artistname">Lotka</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/lotka553">[listen]</a></span><br><br>
+
+                <span class="Artistname">Lui</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank" href="https://soundcloud.com/l_u_i">[listen]</a></span><br><br>
+
+                <span class="Artistname">M2M b2b Deepglow</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank" href="https://soundcloud.com/user-805677241">[listen]</a>
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/user-555487104/deepglow_sauerkrautstampfen_09_07_2022?p=a&amp;c=1&amp;si=14667da1a3624531866f3efa149a0f8e">[listen]</a></span><br><br>
+
+                <span class="Artistname">Mc Lovin</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/hannes-kaemmerer-893532">[listen]</a></span><br><br>
+
+                <span class="Artistname">Miauhx</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank" href="https://soundcloud.com/miauhx">[listen]</a></span><br><br>
+
+                <span class="Artistname">NzKT</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank" href="https://soundcloud.com/inzekt">[listen]</a></span><br><br>
+
+                <span class="Artistname">Salvacore Dali</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/mental_misstep">[listen]</a></span><br><br>
+
+                <span class="Artistname">Schmutz</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/schmutz23">[listen]</a></span><br><br>
+
+                <span class="Artistname">Skunketek</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/skunketek">[listen]</a></span><br><br>
+
+                <span class="Artistname">Stammtisch DJ Team</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/stammtischdjteam">[listen]</a></span><br><br>
+
+                <span class="Artistname">Taugenix</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://www.seti-gathering.net/">[listen]</a></span><br><br>
+
+                <span class="Artistname">TLMN</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/jo2x48/sets/queerbass-radio-kraftwerk">[listen]</a></span><br><br>
+
+                <span class="Artistname">Topse</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/nukuleswaran">[listen]</a></span><br><br>
+
+                <span class="Artistname">Yetti Meissner b2b Fuge</span>
+                <span class="Labelname"> </span><br>
+                <span class="Artistlink"> &nbsp;&nbsp;
+                  <a class="artistpage" target="_blank" href="https://soundcloud.com/yetti-m">[listen]</a>
+                  <a class="artistpage" target="_blank"
+                    href="https://soundcloud.com/user218526825">[listen]</a></span><br><br>
+
+              </span>
+            </div>
+
+            <div id="locationbox" onclick="clickspace()" class="menutab">location
+            </div>
+
+            <div id="spacepop" style="
+            padding: 1rem;
+            display: none;
+            text-align: left;
+            background: #323D3A;
+            border-top: thin solid #000;
+            border-left: thin solid #000;
+            border-right: thin solid #000;
+            ">
+
+
+
+              Seti 2024 will take place in a
+              beautiful location near Erfurt.
+              If you need more information on how
+              to get there subscribe to our newsletter
+              to stay updated. We will provide you with the
+              necessary details shortly before the event will start.
+              <br>
+              <br>
+              <img src="./files/img/fakemap.png" alt="wrongway" style="width:100%;">
+
+              Imortant notice:
+              <br>
+              It seems like we can provide a
+              camping space for this years
+              Edition. There will also be a comfortable chillout space
+              and space around the location to relax.
+              <br>
+              <br>
+
+            </div>
+
+            <div id="ticketbox" onclick="clicktime()" class="menutab">tickets</div>
+            <div id="timepop" style="
+            padding: 1rem;
+            display: none;
+            text-align: left;
+            background: #323D3A;
+            /* border: thin solid #000; */
+            border-left: thin solid #000;
+            border-right: thin solid #000;
+            border-bottom: thin solid #000;
+            ">
+              <pretix-widget event="https://pretix.seti-gathering.net/Fractaliens/v3/" single-item-select="button"></pretix-widget>
+              <noscript>
+                <div class="pretix-widget">
+                  <div class="pretix-widget-info-message">
+                    JavaScript ist in Ihrem Browser deaktiviert. Um unseren Ticket-Shop ohne JavaScript aufzurufen,
+                    klicken Sie bitte <a target="_blank" rel="noopener"
+                      href="https://pretix.seti-gathering.net/Fractaliens/v3/">hier</a>.
+                  </div>
+                </div>
+              </noscript>
+
+
+            </div>
+          </div>
+        </div>
+
+        <!-- ///////////// NEWSLETTER //////////// -->
+        <div id="innen">
+          <h1>Newsletter</h1>
+          <p>
+            If you want to be updated about everything happening around SETI-Gathering, including participation and our
+            next events, feel free to sign up to our newsletter.
+
+          </p>
+          <form id="sib-form" method="POST"
+            action="https://750e9502.sibforms.com/serve/MUIFAFKMxiZ5nNm0iD4r84dKsNT7e8vDm0X90Z2yP_D6Y5AY8AliiMPhwHbOPIB8yj2dienXymUn04Hbd7fP43krqKYxRLk-y0tnYqJ4AowwGwYDo04WfemKthpfg4eu-O_Mmjd4UJWWNPhdpqraz6a94yt9R0euz-UtC9T0t61ETbuZ98vq3DGz93_zwA7EUHq6IIRQBtDJCOXx">
+            <h2>SUBSCRIBE</h2>
+            <input class="input " type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="EMAIL"
+              required="true" required />
+            <input type="text" name="HPName" id="HPName" value=""><br>
+            <input type="checkbox" name="datenschutz" style="background:#323D3A;" id="datenschutz" value="datenschutz"
+              required="true">
+            <label for="datenschutz">
+              I agree to the</label>
+            <a href="datenschutz.html">
+              <br class="hidebreak">
+              terms and conditions</a>
+            <br>
+            <br>
+            <input type="hidden" name="email_address_check" value="" class="input--hidden">
+            <input type="hidden" name="locale" value="de">
+            <input type="hidden" name="html_type" value="simple">
+            <button class="formbutton" form="sib-form" type="submit" value="Submit" id="submit">Submit
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script>
+    var myVar;
+
+    function myFunction() {
+      myVar = setTimeout(showPage, 3050);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("Sitecontent").style.display = "block";
+    }
+    function clicklineup() {
+      var x = document.getElementById("linepop");
+      var y = document.getElementById("spacepop");
+      var z = document.getElementById("timepop");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+        x.style.background = "#29322F";
+      } else {
+        x.style.display = "none";
+      }
+      y.style.display = "none";
+      z.style.display = "none";
+    }
+    function clickspace() {
+      var x = document.getElementById("linepop");
+      var y = document.getElementById("spacepop");
+      var z = document.getElementById("timepop");
+      if (y.style.display === "none") {
+        y.style.display = "block";
+        y.style.background = "#29322F";
+      } else {
+        y.style.display = "none";
+      }
+      x.style.display = "none";
+      z.style.display = "none";
+    }
+    function clicktime() {
+      var x = document.getElementById("linepop");
+      var y = document.getElementById("spacepop");
+      var z = document.getElementById("timepop");
+      var activetab = document.getElementById("ticketbox");
+      if (z.style.display === "none") {
+        z.style.display = "block";
+        // activetab.style.borderBottomWidth= "thick";
+        // activetab.style.borderBottomColor= "#202624";
+        z.style.background = "#29322F";
+
+
+      } else {
+        z.style.display = "none";
+      }
+      x.style.display = "none";
+      y.style.display = "none";
+      // activetab.style.background = "#323D3A";
+
+    }
+  </script>
+
+
+
+
+
+
+</body>
+
+</html>

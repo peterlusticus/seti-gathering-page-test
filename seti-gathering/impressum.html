@@ -1,13 +1,125 @@
-<h1> Impressum</h1>
-<br /><br />
-Fraktale Welten e.V.<br />
-Lutherstr. 31<br />
-07743 Jena<br />
-Deutschland<br />
-<br /><br />
-Vertreten durch: Niklas Böhm
-<br /><br />
-Mail an: service@seti-gathering.net
-<br /><br />
-Registergericht: Amtsgericht Jena<br />
-Registernummer: VerR 231765
+<!DOCTYPE html>
+<!-- saved from url=(0031)https://www.seti-gathering.net/ -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SETI-GATHERING - Imprint</title>
+    <link rel="stylesheet" href="./files/index.css">
+    <link rel="icon" type="image/x-icon" href="./files/img/tabpic.png">
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+
+    <div id="loader" style="z-index: 1000; display: none;" class="animate-bottom"></div>
+    <!-- <img src="media/img/SATempf.svg" alt="Satschüssellinks" id="Seitenpiclinks">
+    <img src="media/img/SATempf.svg" alt="Satschüsselrechts" id="Seitenpicrechts"> -->
+    <div id="Sitecontent" style="display: block;">
+        <nav class="navbar">
+            <div id="patternfill">
+                <div class="logo">
+                    <img src="./files/img/Logo_web_11.svg" alt="SETI_LOGO" id="logopic">
+                </div>
+            </div>
+        </nav>
+        <div class="scroller" id="außen">
+            <div id="mitte">
+
+                <img src="./files/img/experiment9.svg" alt="" id="eyecandymid" class="animationpic">
+                <img src="./files/img/experiment9.svg" alt="" id="eyecandymid2" class="animationpic">
+
+                <!-- ////////// ABOUT //////// -->
+                <div id="innen">
+                    <h1> Impressum</h1>
+                    <br /><br />
+                    <p>Fraktale Welten e.V. </p>
+                    <br />
+                    <p>Lutherstr. 31</p>
+                    <br />
+                    <p>07743 Jena</p>
+                    <br />
+                    <p>Deutschland</p>
+                    <br />
+                    <br /><br />
+                    <p>Vertreten durch: Niklas Böhm</p>
+                    <br /><br />
+                    <p>Mail an: <a>service@seti-gathering.net</a></p>
+                    <br /><br />
+                    <p>Registergericht: Amtsgericht Jena</p>
+                    <br />
+                    <p>Registernummer: VerR 231765</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 3050);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("Sitecontent").style.display = "block";
+        }
+        function clicklineup() {
+            var x = document.getElementById("linepop");
+            var y = document.getElementById("spacepop");
+            var z = document.getElementById("timepop");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                x.style.background = "#29322F";
+            } else {
+                x.style.display = "none";
+            }
+            y.style.display = "none";
+            z.style.display = "none";
+        }
+        function clickspace() {
+            var x = document.getElementById("linepop");
+            var y = document.getElementById("spacepop");
+            var z = document.getElementById("timepop");
+            if (y.style.display === "none") {
+                y.style.display = "block";
+                y.style.background = "#29322F";
+            } else {
+                y.style.display = "none";
+            }
+            x.style.display = "none";
+            z.style.display = "none";
+        }
+        function clicktime() {
+            var x = document.getElementById("linepop");
+            var y = document.getElementById("spacepop");
+            var z = document.getElementById("timepop");
+            var activetab = document.getElementById("ticketbox");
+            if (z.style.display === "none") {
+                z.style.display = "block";
+                // activetab.style.borderBottomWidth= "thick";
+                // activetab.style.borderBottomColor= "#202624";
+                z.style.background = "#29322F";
+
+
+            } else {
+                z.style.display = "none";
+            }
+            x.style.display = "none";
+            y.style.display = "none";
+            // activetab.style.background = "#323D3A";
+
+        }
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>

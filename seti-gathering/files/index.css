@@ -1177,3 +1177,7 @@ input {
 .pretix-widget-pricebox-tax{
  display: none !important;
 }
+
+.imprint-link{
+  font-size: small !important;
+}

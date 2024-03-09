@@ -1179,5 +1179,9 @@ input {
 }
 
 .imprint-link{
+  font-size: 7pt !important;
+}
+
+.imprint{
   font-size: small !important;
 }
